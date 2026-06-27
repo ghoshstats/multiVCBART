@@ -34,7 +34,6 @@ Currently, this repository is used by sourcing the R and C++ files directly into
 sourceCpp("src/multi_ensm_fit_mv.cpp")
 source("R/mv_fit.R")
 ```
-3. Core dependencies: `Rcpp` and `RcppArmadillo`
 
 ## Toy simulation
 
