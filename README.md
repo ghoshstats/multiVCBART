@@ -13,9 +13,7 @@ For $i=1,\dots,n$, we observe:
 - modulating covariates/treatments: $\mathbf z_i\in\mathbb R^p$
 
 We use the working model:
-$$
-\mathbf Y_i \mid \mathbf x_i,\mathbf z_i,\Theta \sim \mathcal N_q\big(B(\mathbf x_i)^\top \mathbf z_i,\ \Omega^{-1}\big), \quad \Theta=(B,\Omega)
-$$
+$\mathbf Y_i \mid \mathbf x_i,\mathbf z_i,\Theta \sim \mathcal N_q\big(B(\mathbf x_i)^\top \mathbf z_i,\ \Omega^{-1}\big), \ \  \Theta=(B,\Omega)$
 where $B(\cdot)$ is a $p\times q$ matrix of unknown functions, with entries $B_{jr}(\cdot)$ modeled using BART ensembles.
 
 ### Prior Structure
