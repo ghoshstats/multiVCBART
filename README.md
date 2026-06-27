@@ -71,7 +71,6 @@ generate_vcbart_sur_high_dim <- function(n, d = 50, p = 100, q = 2) {
   eta2 <- rowSums(Z * beta2)
   Eta <- cbind(eta1, eta2)
   
-  # Precision Matrix Network (2x2)
   Omega <- matrix(c(1.0, 0.6, 
                     0.6, 1.0), nrow = 2, ncol = 2)
   Sigma <- solve(Omega) * 4.0 
